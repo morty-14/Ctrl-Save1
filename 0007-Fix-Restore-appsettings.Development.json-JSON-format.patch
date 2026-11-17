@@ -1,0 +1,64 @@
+From 9adcdbe7f9609aaa13bf1c9e5f30ef6091ea8e7d Mon Sep 17 00:00:00 2001
+From: Esther Ngulu <esther.ngulu@standardbank.com.na>
+Date: Tue, 27 Oct 2026 18:13:55 +0200
+Subject: [PATCH 07/10] Fix: Restore appsettings.Development.json JSON
+ formatting
+
+---
+ appsettings.Development.json | 44 ++++++++++++++++++------------------
+ 1 file changed, 22 insertions(+), 22 deletions(-)
+
+diff --git a/appsettings.Development.json b/appsettings.Development.json
+index 048cddf..d5ec053 100644
+--- a/appsettings.Development.json
++++ b/appsettings.Development.json
+@@ -1,24 +1,24 @@
+ {
+-    "Logging":  {
+-                    "LogLevel":  {
+-                                     "Default":  "Information",
+-                                     "Microsoft.AspNetCore":  "Warning",
+-                                     "Microsoft.EntityFrameworkCore":  "Information"
+-                                 }
+-                },
+-    "DatabaseSettings":  {
+-                             "Provider":  "SQLite",
+-                             "ConnectionString":  "Data Source=ctrlsave.db"
+-                         },
+-    "ConnectionStrings":  {
+-                              "DefaultConnection":  "Server=NBHR12\\SQLEXPRESS;Database=Ctrl+SaveDB;Trusted_Connection=True;TrustServerCertificate=True;",
+-                              "PostgreSQL":  "Host=localhost;Port=5432;Database=ctrlsave_db;Username=postgres;Password=password;",
+-                              "SQLite":  "Data Source=ctrlsave.db"
+-                          },
+-    "Keycloak":  {
+-                     "Realm":  "ctrl-save",
+-                     "AuthServerUrl":  "http://localhost:8080",
+-                     "ClientId":  "ctrl-save-web-app",
+-                     "ClientSecret":  "bo3T2WSwlNOw67bwsLLWkRO6nRdL6xhqSPL8Dnbu1HoVqGJCPia19aqcoZInfmKIJVvkG34twNNuEwdWPMhoE3"
+-                 }
++  "Logging": {
++    "LogLevel": {
++      "Default": "Information",
++      "Microsoft.AspNetCore": "Warning",
++      "Microsoft.EntityFrameworkCore": "Information"
++    }
++  },
++  "DatabaseSettings": {
++    "Provider": "SqlServer",
++    "ConnectionString": "Server=NBHR12\\SQLEXPRESS;Database=Ctrl+SaveDB;Trusted_Connection=True;TrustServerCertificate=True;"
++  },
++  "ConnectionStrings": {
++    "DefaultConnection": "Server=NBHR12\\SQLEXPRESS;Database=Ctrl+SaveDB;Trusted_Connection=True;TrustServerCertificate=True;",
++    "PostgreSQL": "Host=localhost;Port=5432;Database=ctrlsave_db;Username=postgres;Password=postgres;",
++    "SQLite": "Data Source=ctrlsave.db"
++  },
++  "Keycloak": {
++    "Realm": "ctrl-save",
++    "AuthServerUrl": "http://localhost:8080",
++    "ClientId": "ctrl-save-web-app",
++    "ClientSecret": "bo3T2WSwlNOw67bwsLLWkRO6nRdL6xhqSPL8Dnbu1HoVqGJCPia19aqcoZInfmKIJVvkG34twNNuEwdWPMhoE3"
++  }
+ }
+-- 
+2.56.0.windows.2
+

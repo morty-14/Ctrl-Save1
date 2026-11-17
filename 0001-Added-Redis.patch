@@ -1,0 +1,33 @@
+From de081fc8c7051673c8b2f659aed1676ea08bdeb1 Mon Sep 17 00:00:00 2001
+From: Esther Ngulu <esther.ngulu@standardbank.com.na>
+Date: Tue, 8 Sep 2026 13:19:50 +0200
+Subject: [PATCH 01/10] Added Redis
+
+---
+ obj/Debug/net10.0/Ctrl+Save.AssemblyInfo.cs          | 2 +-
+ obj/Debug/net10.0/Ctrl+Save.AssemblyInfoInputs.cache | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/obj/Debug/net10.0/Ctrl+Save.AssemblyInfo.cs b/obj/Debug/net10.0/Ctrl+Save.AssemblyInfo.cs
+index b9ee5e4..415af6b 100644
+--- a/obj/Debug/net10.0/Ctrl+Save.AssemblyInfo.cs
++++ b/obj/Debug/net10.0/Ctrl+Save.AssemblyInfo.cs
+@@ -14,7 +14,7 @@ using System.Reflection;
+ [assembly: System.Reflection.AssemblyCompanyAttribute("Ctrl+Save")]
+ [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+ [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b12968cc2fb14950860b0b3aa14f6d00704a9420")]
++[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a809d65cbada8abb7adee5f4354ca3ce6a8fa040")]
+ [assembly: System.Reflection.AssemblyProductAttribute("Ctrl+Save")]
+ [assembly: System.Reflection.AssemblyTitleAttribute("Ctrl+Save")]
+ [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+diff --git a/obj/Debug/net10.0/Ctrl+Save.AssemblyInfoInputs.cache b/obj/Debug/net10.0/Ctrl+Save.AssemblyInfoInputs.cache
+index 89e5d0b..777cbd4 100644
+--- a/obj/Debug/net10.0/Ctrl+Save.AssemblyInfoInputs.cache
++++ b/obj/Debug/net10.0/Ctrl+Save.AssemblyInfoInputs.cache
+@@ -1 +1 @@
+-28d4e1fd96785bda898d7e40bdca400df24a1cc12fd5fc3dfb8b31d058e32073
++a0680ca0c922ab15cb6b19f8ac301c406906e5612d349bd4a7c6f0ea9d65cd9c
+-- 
+2.56.0.windows.2
+
